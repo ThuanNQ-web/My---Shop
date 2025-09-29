@@ -3,106 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Online Shop</title>
+  <title>Memory Lamp</title>
   <style>
-    body { 
-      font-family: Arial, sans-serif; 
-      margin: 0; 
-      padding: 0; 
-      background-image: url("bg.jpg"); /* ảnh nền */
-      background-size: cover;          /* tự động fit màn hình */
-      background-position: center;     /* căn giữa */
-      background-attachment: fixed;    /* nền cố định khi cuộn */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
     }
-    header { 
-      background: rgba(34, 34, 34, 0.8); 
-      color: white; 
-      padding: 20px; 
-      text-align: center; 
+
+    header {
+      background-image: url("bg.jpg");  /* ảnh nền */
+      background-size: cover;           /* phủ kín */
+      background-position: center;      /* căn giữa */
+      color: white;
+      padding: 60px 20px;               /* tăng chiều cao header */
+      text-align: center;
     }
-    nav { 
-      background: rgba(68, 68, 68, 0.8); 
-      padding: 10px; 
-      text-align: center; 
+
+    nav {
+      background: #222;
+      color: white;
+      padding: 10px;
+      text-align: center;
     }
-    nav a { 
-      color: white; 
-      margin: 0 10px; 
-      text-decoration: none; 
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
     }
-    nav a:hover { text-decoration: underline; }
-    .container { 
-      display: flex; 
-      flex-wrap: wrap; 
-      justify-content: center; 
-      margin: 20px; 
+
+    nav a:hover {
+      text-decoration: underline;
     }
-    .product { 
-      background: rgba(255, 255, 255, 0.9); 
-      border: 1px solid #ccc; 
-      border-radius: 10px; 
-      margin: 10px; 
-      width: 250px; 
-      text-align: center; 
-      padding: 15px; 
+
+    main {
+      padding: 20px;
     }
-    .product img { 
-      width: 100%; 
-      border-radius: 10px; 
-    }
-    button { 
-      background: #28a745; 
-      color: white; 
-      padding: 10px 20px; 
-      border: none; 
-      border-radius: 5px; 
-      cursor: pointer; 
-    }
-    button:hover { background: #218838; }
-    footer { 
-      background: rgba(34, 34, 34, 0.8); 
-      color: white; 
-      text-align: center; 
-      padding: 10px; 
-      margin-top: 20px; 
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Memory Lamp – The Scent of Memories</h1>
-    <p>Affordable products for everyone</p>
+    <h1>Memory Lamp</h1>
+    <p>The Scent of Memories</p>
   </header>
 
   <nav>
     <a href="#">Home</a>
-    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
     <a href="#">Contact</a>
   </nav>
 
-  <div class="container">
-    <div class="product">
-      <img src="https://via.placeholder.com/250x200" alt="Product 1">
-      <h2>Product 1</h2>
-      <p>$20.00</p>
-      <button>Buy Now</button>
-    </div>
-    <div class="product">
-      <img src="https://via.placeholder.com/250x200" alt="Product 2">
-      <h2>Product 2</h2>
-      <p>$35.00</p>
-      <button>Buy Now</button>
-    </div>
-    <div class="product">
-      <img src="https://via.placeholder.com/250x200" alt="Product 3">
-      <h2>Product 3</h2>
-      <p>$15.00</p>
-      <button>Buy Now</button>
-    </div>
-  </div>
+  <main>
+    <h2>Welcome to Memory Lamp</h2>
+    <p>This is a concept project about a lamp that captures and displays memories with light and scent.</p>
+  </main>
 
   <footer>
-    <p>© 2025 My Shop. All rights reserved.</p>
+    <p>&copy; 2025 Memory Lamp Project</p>
   </footer>
 </body>
 </html>
