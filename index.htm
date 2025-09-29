@@ -5,17 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Online Shop</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-    header { background: #222; color: white; padding: 20px; text-align: center; }
-    nav { background: #444; padding: 10px; text-align: center; }
-    nav a { color: white; margin: 0 10px; text-decoration: none; }
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      padding: 0; 
+      /* 🔹 Background thêm ở đây */
+      background-image: url("images/bg.jpg");
+      background-size: cover;         /* ảnh phủ toàn bộ màn hình */
+      background-position: center;    /* canh giữa */
+      background-attachment: fixed;   /* cố định khi cuộn */
+      color: #fff;                    /* chữ đổi sang trắng cho dễ đọc */
+    }
+    header { 
+      background: rgba(34, 34, 34, 0.8); 
+      color: white; 
+      padding: 20px; 
+      text-align: center; 
+    }
+    nav { 
+      background: rgba(68, 68, 68, 0.8); 
+      padding: 10px; 
+      text-align: center; 
+    }
+    nav a { 
+      color: white; 
+      margin: 0 10px; 
+      text-decoration: none; 
+    }
     nav a:hover { text-decoration: underline; }
-    .container { display: flex; flex-wrap: wrap; justify-content: center; margin: 20px; }
-    .product { border: 1px solid #ccc; border-radius: 10px; margin: 10px; width: 250px; text-align: center; padding: 15px; }
-    .product img { width: 100%; border-radius: 10px; }
-    button { background: #28a745; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    .container { 
+      display: flex; 
+      flex-wrap: wrap; 
+      justify-content: center; 
+      margin: 20px; 
+    }
+    .product { 
+      background: rgba(255, 255, 255, 0.9);  /* nền trắng mờ để nổi bật */
+      color: #000; 
+      border: 1px solid #ccc; 
+      border-radius: 10px; 
+      margin: 10px; 
+      width: 250px; 
+      text-align: center; 
+      padding: 15px; 
+    }
+    .product img { 
+      width: 100%; 
+      border-radius: 10px; 
+    }
+    button { 
+      background: #28a745; 
+      color: white; 
+      padding: 10px 20px; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer; 
+    }
     button:hover { background: #218838; }
-    footer { background: #222; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    footer { 
+      background: rgba(34, 34, 34, 0.8); 
+      color: white; 
+      text-align: center; 
+      padding: 10px; 
+      margin-top: 20px; 
+    }
   </style>
 </head>
 <body>
@@ -55,5 +108,4 @@
     <p>© 2025 My Shop. All rights reserved.</p>
   </footer>
 </body>
-
 </html>
