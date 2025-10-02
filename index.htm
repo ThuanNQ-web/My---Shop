@@ -3,43 +3,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Memory Lamp</title>
-  <link rel="stylesheet" href="style.css"> <!-- CSS dùng chung -->
+  <title>Memory Lamp – The Scent of Memories</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      background: #f9f9f9;
+    }
+
+    /* Header với ảnh nền */
+    header {
+      background: url('bg.jpg') no-repeat center center/cover;
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    header h1, header p {
+      color: orange; /* chữ màu cam */
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+    }
+
+    /* Navigation */
+    nav {
+      background: #444;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 1em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Main content */
+    main {
+      flex: 1;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    main h2 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 1.2em;
+      color: #333;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Footer */
+    footer {
+      background: #222;
+      color: pink;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
 </head>
 <body>
-  <!-- Header -->
+
   <header>
-    <h1>Welcome to Memory Lamp</h1>
-    <p>Nơi hương thơm lưu giữ kỷ niệm</p>
+    <h1>Memory Lamp – The Scent of Memories</h1>
+    <p>Affordable products for everyone</p>
   </header>
 
-  <!-- Navigation -->
   <nav>
-    <a href="index.html">Home</a>
-    <a href="product.html">Products</a>
-    <a href="contact.html">Contact</a>
+    <a href="/My---Shop/index.html">Home</a>
+    <a href="/My---Shop/product.html">Products</a>
+    <a href="/My---Shop/contact.html">Contact</a>
   </nav>
 
-  <!-- Main content -->
   <main>
-    <section class="intro">
-      <h2>Về chúng tôi</h2>
-      <p>
-        Memory Lamp chuyên cung cấp các loại tinh dầu thiên nhiên cao cấp.  
-        Sản phẩm của chúng tôi giúp không gian sống của bạn trở nên thư giãn, dễ chịu và tràn đầy năng lượng tích cực.
-      </p>
-    </section>
-
-    <section class="highlight">
-      <h2>Sản phẩm nổi bật</h2>
-      <p>Khám phá những hương thơm được nhiều khách hàng yêu thích nhất.</p>
-      <p><a href="product.html" class="btn">Xem tất cả sản phẩm</a></p>
-    </section>
+    <h2>Welcome to Memory Lamp</h2>
+    <p>
+      Chào mừng bạn đến với trang web chính thức của Memory Lamp.  
+      Tại đây bạn sẽ tìm thấy những sản phẩm độc đáo và ý nghĩa,  
+      mang đến cho bạn hương thơm của ký ức.
+    </p>
   </main>
 
-  <!-- Footer -->
   <footer>
-    <p>© 2025 Memory Lamp. All rights reserved.</p>
+    <p>© 2025 My Shop. All rights reserved.</p>
   </footer>
+
 </body>
 </html>
